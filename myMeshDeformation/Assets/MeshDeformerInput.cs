@@ -23,13 +23,16 @@ public class MeshDeformerInput : MonoBehaviour
         RaycastHit hit;
         // hit 是储存Raycast相关信息的数据结构
         if (Physics.Raycast(inputRay, out hit)) // out 可以让函数传递出多个返回值
-        {           
+        {
+            Debug.Log("hit");
             MeshDeformer deformer = hit.collider.GetComponent<MeshDeformer>();  // 挂载在 与Ray碰撞的 mesh 上的 deformer
             if (deformer)
             {
+                Debug.Log("call deformer");
                 Vector3 point = hit.point;
-                point += hit.normal * forceOffset;  // 在一个很接近表面的位置
-                deformer.AddDeformingForce(point, force);
+                point += hit.normal * forceOffset;  // 偏移到一个很接近表面的位置
+                deformer.AddDeformingForce(point, force);   // 调用 Ray 接触点物体的 deformer
+
             }
         }
     }

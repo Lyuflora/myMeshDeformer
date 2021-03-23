@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CircleGizmo.cs" />
+    <Compile Include="Assets\DragCamera.cs" />
     <Compile Include="Assets\MeshDeformer.cs" />
     <Compile Include="Assets\MeshDeformerInput.cs" />
     <Compile Include="Assets\Scripts\Cube.cs" />
@@ -600,31 +601,31 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.22f1c1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>H:/code/myMeshDeformation/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>H:/Github/myMeshDeformer/myMeshDeformation/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>H:/code/myMeshDeformation/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>H:/Github/myMeshDeformer/myMeshDeformation/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>H:/code/myMeshDeformation/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>H:/Github/myMeshDeformer/myMeshDeformation/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>H:/code/myMeshDeformation/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>H:/Github/myMeshDeformer/myMeshDeformation/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>H:/code/myMeshDeformation/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>H:/Github/myMeshDeformer/myMeshDeformation/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>H:/code/myMeshDeformation/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>H:/Github/myMeshDeformer/myMeshDeformation/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>H:/code/myMeshDeformation/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>H:/Github/myMeshDeformer/myMeshDeformation/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>H:/code/myMeshDeformation/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>H:/Github/myMeshDeformer/myMeshDeformation/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>H:/code/myMeshDeformation/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>H:/Github/myMeshDeformer/myMeshDeformation/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
